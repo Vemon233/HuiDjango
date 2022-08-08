@@ -1,0 +1,17 @@
+@media (min-width: 768px) {
+    .news-input{
+        width: 50%;
+    }
+}
+
+.onepage-bg{
+    height: 800px;
+    width:100%;
+    position: absolute;
+    background-position: center,center;
+    background-size: cover;
+}
+
+#onepagebg{
+    background-image:url("/static/images/1.jpg");
+}

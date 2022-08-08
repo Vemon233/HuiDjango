@@ -1,0 +1,109 @@
+{% extends 'base.html' %}
+
+{% block title_block %}
+    Index
+{% endblock %}
+
+{% block head_block %}
+    <link rel="stylesheet" href="/static/css/index.css"/>
+{% endblock %}
+
+{% block body_block %}
+    <div class="p-2 bg-dark"></div>
+    <!--The first part of index, introduction-->
+    <section class="p-5 bg-dark text-light text-center text-sm-start" style="height: 25rem">
+        <div class="container">
+            <div class="d-flex">
+                <div>
+                    <h1>
+                        Welcome to <span class="text-warning">Emerging</span>
+                    </h1>
+                    <h1>
+                        <span class="text-warning">Pathogen Cases Monitor</span>
+                    </h1>
+                    <p class="my-4">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing
+                        elit. Doloremque corporis quo, similique perferendis
+                        distinctio non eius consequuntur error obcaecati
+                        quaerat iusto quos fugiat rerum, unde omnis
+                        blanditiis ducimus asperiores quibusdam? Maiores nam
+                        deserunt earum exercitationem eligendi,
+                    </p>
+                </div>
+                <img
+                        src="/static/images/1.png"
+                        alt="showcase"
+                        width="400"
+                        class="img-thumbnail mx-5 d-none d-md-block"
+                />
+            </div>
+        </div>
+    </section>
+
+    <!--The second part of index, start a search-->
+    <section class="p-5 bg-primary text-light">
+        <div class="container">
+            <div class="d-md-flex justify-content-between align-items-center">
+                <h3>Start using EPaC Monitor by search a <span class="text-danger">pathogen</span></h3>
+                <div class="input-group news-input">
+                    <input
+                            type="text"
+                            class="form-control"
+                            placeholder="Enter a pathogen"
+                    />
+                    <button class="btn btn-warning btn-lg">Search</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--The third part of index, category of pathogens-->
+    <section class="p-5 bg-warning bg-opacity-75">
+        <div class="container">
+            <div class="card-group row g-5">
+                <!--One Card-->
+                <div class="col-md px-5">
+                    <div class="card bg-dark text-light" style="height: 24rem">
+                        <div class="card-body text-center">
+                            <h2 class="card-title position-absolute bottom-50 start-50 translate-middle my-4">前端知识</h2>
+                            <a href="#"
+                               class="btn btn-primary position-absolute bottom-0 start-50 translate-middle-x mb-5"
+                            >学习前端</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md px-5">
+                    <div class="card bg-dark text-light" style="height: 24rem">
+                        <div class="card-body text-center">
+                            <h2 class="card-title position-absolute bottom-50 start-50 translate-middle my-4">前端知识</h2>
+                            <a href="#"
+                               class="btn btn-primary position-absolute bottom-0 start-50 translate-middle-x mb-5"
+                            >学习前端</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md px-5">
+                    <div class="card bg-dark text-light" style="height: 24rem">
+                        <div class="card-body text-center">
+                            <h2 class="card-title position-absolute bottom-50 start-50 translate-middle my-4">前端知识</h2>
+                            <a href="#"
+                               class="btn btn-primary position-absolute bottom-0 start-50 translate-middle-x mb-5"
+                            >学习前端</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md px-5">
+                    <div class="card bg-dark text-light" style="height: 24rem">
+                        <div class="card-body text-center">
+                            <h2 class="card-title position-absolute bottom-50 start-50 translate-middle my-4">前端知识</h2>
+                            <a href="EPaCMonitor/undiagnosed"
+                               class="btn btn-primary position-absolute bottom-0 start-50 translate-middle-x mb-5"
+                            >学习前端</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+{% endblock %}
