@@ -56,7 +56,7 @@ WHERE class != 'no_use'
 AND class != 'undiagnosed'
 GROUP BY name
 ORDER BY count DESC
-LIMIT 92
+LIMIT 90
 ) as A
 )
 '''
@@ -88,7 +88,7 @@ WHERE class != 'no_use'
 AND class != 'undiagnosed'
 GROUP BY name
 ORDER BY count DESC
-LIMIT 15
+LIMIT 12
 ) as A
 )
 '''
