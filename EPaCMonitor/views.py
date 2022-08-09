@@ -3,7 +3,6 @@ from django.db import connection
 from EPaCMonitor.models import Disease
 
 
-
 # Create your views here.
 def index(request):
     context_dict = {}
@@ -17,6 +16,8 @@ def about(request):
 
 def undiagnosed(request):
     context_dict = {}
+    context_dict['pathogen_name'] = "Undiagnosed pathogens"
+    context_dict['danger_level'] = "unknown"
     return render(request, 'undiagnosed.html', context_dict)
 
 
@@ -37,7 +38,9 @@ def list_frequent(request):
     cur.close()
     pathogens.reverse()
     context_dict['pathogens'] = pathogens
+    context_dict['list_name'] = "frequent disease"
     return render(request, 'list.html', context_dict)
+
 
 def list_common(request):
     context_dict = {}
@@ -56,7 +59,9 @@ def list_common(request):
     cur.close()
     pathogens.reverse()
     context_dict['pathogens'] = pathogens
+    context_dict['list_name'] = "common disease"
     return render(request, 'list.html', context_dict)
+
 
 def list_less(request):
     context_dict = {}
@@ -75,6 +80,7 @@ def list_less(request):
     cur.close()
     pathogens.reverse()
     context_dict['pathogens'] = pathogens
+    context_dict['list_name'] = "rare disease"
     return render(request, 'list.html', context_dict)
 
 
@@ -83,8 +89,6 @@ def search(request):
     search_word = request.GET.get('search_word', '')
     search_pathogen = Disease.objects.filter(name__icontains=search_word)
     search_pathogen = search_pathogen.values('name').distinct()
-    print(search_pathogen)
     context_dict['search_word'] = search_word
     context_dict['pathogens'] = search_pathogen
     return render(request, 'search.html', context_dict)
-

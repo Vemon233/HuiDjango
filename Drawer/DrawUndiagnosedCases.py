@@ -36,7 +36,7 @@ try:
 except pymysql.Error as e:
     print("Failed: "+str(e))
 
-
+print(len(di_id_list))
 # print('1')
 # print(len(di_id_list))
 # print(di_id_list)

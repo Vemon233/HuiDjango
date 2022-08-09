@@ -31,7 +31,7 @@
                     </h5>
                 </div>
                 <img
-                        src="/static/images/1.png"
+                        src="/static/images/index.png"
                         alt="showcase"
                         width="400"
                         class="img-thumbnail ms-auto d-none d-md-block"
@@ -45,14 +45,15 @@
         <div class="container">
             <div class="d-md-flex justify-content-between align-items-center">
                 <h3>Start using EPaC Monitor by search a <span class="text-danger">pathogen</span></h3>
-                <div class="input-group news-input">
+                <form class="input-group news-input" action="http://127.0.0.1:8000/EPaCMonitor/search/">
                     <input
                             type="text"
+                            name="search_word"
                             class="form-control"
                             placeholder="Enter a pathogen"
                     />
-                    <button class="btn btn-warning btn-lg">Search</button>
-                </div>
+                    <button class="btn btn-warning btn-lg" type="submit">Search</button>
+                </form>
             </div>
         </div>
     </section>
@@ -65,8 +66,10 @@
                 <div class="col-md px-5">
                     <div class="card bg-dark text-light" style="height: 24rem">
                         <div class="card-body text-center">
-                            <h2 class="card-title position-absolute bottom-50 start-50 translate-middle my-4">Frequent Disease</h2>
-                            <p class="card-text position-absolute bottom-50 start-50 translate-middle my-2">Cases more than 50</p>
+                            <h2 class="card-title position-absolute bottom-50 start-50 translate-middle my-4">Frequent
+                                Disease</h2>
+                            <p class="card-text position-absolute bottom-50 start-50 translate-middle my-2">Cases more
+                                than 50</p>
                             <a href="EPaCMonitor/list_frequent"
                                class="btn btn-primary position-absolute bottom-0 start-50 translate-middle-x mb-5"
                             >View List</a>
@@ -76,8 +79,10 @@
                 <div class="col-md px-5">
                     <div class="card bg-dark text-light" style="height: 24rem">
                         <div class="card-body text-center">
-                            <h2 class="card-title position-absolute bottom-50 start-50 translate-middle my-4">Common Disease</h2>
-                            <p class="card-text position-absolute bottom-50 start-50 translate-middle my-2">Cases from 15 to 50</p>
+                            <h2 class="card-title position-absolute bottom-50 start-50 translate-middle my-4">Common
+                                Disease</h2>
+                            <p class="card-text position-absolute bottom-50 start-50 translate-middle my-2">Cases from
+                                15 to 50</p>
                             <a href="EPaCMonitor/list_common"
                                class="btn btn-primary position-absolute bottom-0 start-50 translate-middle-x mb-5"
                             >View List</a>
@@ -87,8 +92,10 @@
                 <div class="col-md px-5">
                     <div class="card bg-dark text-light" style="height: 24rem">
                         <div class="card-body text-center">
-                            <h2 class="card-title position-absolute bottom-50 start-50 translate-middle my-4">Rare Disease</h2>
-                            <p class="card-text position-absolute bottom-50 start-50 translate-middle my-2">Cases less than 15</p>
+                            <h2 class="card-title position-absolute bottom-50 start-50 translate-middle my-4">Rare
+                                Disease</h2>
+                            <p class="card-text position-absolute bottom-50 start-50 translate-middle my-2">Cases less
+                                than 15</p>
                             <a href="EPaCMonitor/list_less"
                                class="btn btn-primary position-absolute bottom-0 start-50 translate-middle-x mb-5"
                             >View List</a>
@@ -98,8 +105,9 @@
                 <div class="col-md px-5">
                     <div class="card bg-dark text-light" style="height: 24rem">
                         <div class="card-body text-center">
-                            <h2 class="card-title position-absolute bottom-50 start-50 translate-middle my-4">Undiagnosed Disease</h2>
-                            <p class="card-text position-absolute bottom-50 start-50 translate-middle my-2">Cases unknown</p>
+                            <h2 class="card-title position-absolute bottom-50 start-50 translate-middle my-4">
+                                Undiagnosed Disease</h2>
+                            <p class="card-text position-absolute bottom-50 start-50 translate-middle my-2">Undiagnosed cases</p>
                             <a href="EPaCMonitor/undiagnosed"
                                class="btn btn-primary position-absolute bottom-0 start-50 translate-middle-x mb-5"
                             >View Page</a>

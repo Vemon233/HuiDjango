@@ -19,8 +19,8 @@
             <div class="d-flex">
                 <div class="card mx-auto" style="width: 1300px;">
                     <div class="card-header pt-3 d-flex flex-row align-items-center justify-content-between">
-                        <div><h1><span class="text-dark">Monkeypox-test</span></h1></div>
-                        <div class="ms-auto mt-auto"><h4><span class="text-danger">Danger lever: high</span></h4></div>
+                        <div><h1><span class="text-primary">{{ pathogen_name }}</span></h1></div>
+                        <div class="ms-auto mt-auto"><h4><span class="text-danger">Danger lever: {{ danger_level }}</span></h4></div>
                     </div>
                 </div>
             </div>
@@ -32,7 +32,7 @@
     <section class="bg-secondary bg-opacity-75 p-3">
         <div class="card mx-auto" style="width: 1300px;">
             <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
-                <h6 class="m-0 font-weight-bold text-primary">Revenue Sources</h6>
+                <h6 class="m-0 font-weight-bold text-primary">Total cases</h6>
             </div>
             <div class="card-body mx-auto">
                 {% block line_total_block %}
@@ -44,7 +44,7 @@
     <section class="bg-secondary bg-opacity-75 pb-3">
         <div class="card mx-auto" style="width: 1300px;">
             <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
-                <h6 class="m-0 font-weight-bold text-primary">Revenue Sources</h6>
+                <h6 class="m-0 font-weight-bold text-primary">Daily new cases</h6>
             </div>
             <div class="card-body mx-auto">
                 {% block line_daily_block %}
@@ -61,7 +61,7 @@
                 <div class="col-xl-7">
                     <div class="card shadow mb-4">
                         <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
-                            <h6 class="m-0 font-weight-bold text-primary">Earnings Overview</h6>
+                            <h6 class="m-0 font-weight-bold text-primary">Disease distribution worldmap</h6>
                         </div>
                         <div class="card-body mx-auto">
                             {% block world_map_block %}
@@ -74,7 +74,7 @@
                 <div class="col-xl-5">
                     <div class="card shadow mb-4">
                         <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
-                            <h6 class="m-0 font-weight-bold text-primary">Revenue Sources</h6>
+                            <h6 class="m-0 font-weight-bold text-primary">Cases by country</h6>
                         </div>
                         <div class="card-body mx-auto">
                             {% block pie_block %}
