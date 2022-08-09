@@ -91,16 +91,25 @@ case_num = 0
 while day <= x_data_list[-1]:
     x_list.append(day)
     if day in x_data_list:
-        case_num += y_add_data_list[i]
         y_list.append(y_data_list[i])
         i += 1
     else:
         y_list.append(0)
+    day += datetime.timedelta(days=1)
+
+i = 0
+day = x_data_list[0]
+while day <= x_data_list[-1]:
+    print(day)
+    case_num += y_list[i]
+    i += 1
     y_add_list.append(case_num)
     day += datetime.timedelta(days=1)
 print(x_list)
 print(y_list)
 print(y_add_list)
+
+
 
 (
     Line()

@@ -4,14 +4,30 @@
     }
 }
 
-.onepage-bg{
-    height: 800px;
-    width:100%;
-    position: absolute;
-    background-position: center,center;
+#virus{
+    width: 100%;
+    height: 100%;
+    background-image:url("/static/images/virus.png");
     background-size: cover;
 }
 
-#onepagebg{
-    background-image:url("/static/images/1.jpg");
+#bacteria{
+    width: 100%;
+    height: 100%;
+    background-image:url("/static/images/bacteria.png");
+    background-size: cover;
+}
+
+#fungus{
+    width: 100%;
+    height: 100%;
+    background-image:url("/static/images/fungus.png");
+    background-size: cover;
+}
+
+#unknown{
+    width: 100%;
+    height: 100%;
+    background-image:url("/static/images/unknown.png");
+    background-size: cover;
 }

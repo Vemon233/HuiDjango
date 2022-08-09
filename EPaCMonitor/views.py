@@ -92,3 +92,20 @@ def search(request):
     context_dict['search_word'] = search_word
     context_dict['pathogens'] = search_pathogen
     return render(request, 'search.html', context_dict)
+
+
+def singledi(request, di_name):
+    context_dict = {}
+    try:
+        disease = Disease.objects.filter(name=di_name)
+        name = disease[0].name
+        di_name = str.upper(di_name)
+        print(di_name)
+        name = str.lower(name)
+        name = name.replace(" ", "-")
+        context_dict['disease'] = disease
+        context_dict['name'] = di_name
+    except Disease.DoesNotExist:
+        context_dict['disease'] = None
+        context_dict['name'] = di_name
+    return render(request, 'disease.html', context_dict)

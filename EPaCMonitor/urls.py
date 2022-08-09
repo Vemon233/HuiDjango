@@ -11,4 +11,5 @@ urlpatterns = [
     path('list_common/', views.list_common, name='list_common'),
     path('list_frequent/', views.list_frequent, name='list_frequent'),
     path('search/', views.search, name='search'),
+    path('disease/<di_name>/', views.singledi, name='post'),
 ]
