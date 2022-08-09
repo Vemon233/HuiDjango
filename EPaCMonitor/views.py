@@ -15,16 +15,6 @@ def about(request):
     return render(request, 'about.html', context_dict)
 
 
-def pathogen(request):
-    context_dict = {}
-    return render(request, 'pathogen.html', context_dict)
-
-
-def board(request):
-    context_dict = {}
-    return render(request, 'list.html', context_dict)
-
-
 def undiagnosed(request):
     context_dict = {}
     return render(request, 'undiagnosed.html', context_dict)
@@ -86,4 +76,15 @@ def list_less(request):
     pathogens.reverse()
     context_dict['pathogens'] = pathogens
     return render(request, 'list.html', context_dict)
+
+
+def search(request):
+    context_dict = {}
+    search_word = request.GET.get('search_word', '')
+    search_pathogen = Disease.objects.filter(name__icontains=search_word)
+    search_pathogen = search_pathogen.values('name').distinct()
+    print(search_pathogen)
+    context_dict['search_word'] = search_word
+    context_dict['pathogens'] = search_pathogen
+    return render(request, 'search.html', context_dict)
 

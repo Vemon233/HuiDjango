@@ -1,11 +1,11 @@
 {% extends 'base.html' %}
 
 {% block title_block %}
-    List
+    Search
 {% endblock %}
 
 {% block body_block %}
-    <section class="bg-secondary bg-opacity-50 p-5">
+        <section class="bg-secondary bg-opacity-50 p-5">
         <div class="container">
 
             <div class="my-3 p-3 bg-body rounded shadow-sm">
@@ -20,8 +20,7 @@
                             </svg>
 
                             <p class="pb-3 mb-0 small lh-sm border-bottom">
-                                <strong class="d-block text-dark">{{ pathogen.0 }}</strong>
-                                Cases: {{ pathogen.1 }}
+                                <strong class="d-block text-dark">{{ pathogen.name }}</strong>
                             </p>
                         </div>
                     {% endfor %}
@@ -35,7 +34,6 @@
 
                         <p class="pb-3 mb-0 small lh-sm border-bottom">
                             <strong class="d-block text-dark">Not Found</strong>
-                            Cases: None
                         </p>
                     </div>
                 {% endif %}
