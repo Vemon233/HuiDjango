@@ -37,7 +37,17 @@ def list_frequent(request):
     pathogens = list(result)
     cur.close()
     pathogens.reverse()
-    context_dict['pathogens'] = pathogens
+    pathogens_new = []
+    i = 0
+    for pathogen in pathogens:
+        str_name = pathogen[0]
+        str_name = str_name.replace('_', ' ')
+        pa = list(pathogens[i])
+        pa.append(str_name)
+        pathogens_new.append(pa)
+        i += 1
+    print(pathogens_new)
+    context_dict['pathogens'] = pathogens_new
     context_dict['list_name'] = "frequent disease"
     return render(request, 'list.html', context_dict)
 
@@ -58,7 +68,16 @@ def list_common(request):
     pathogens = list(result)
     cur.close()
     pathogens.reverse()
-    context_dict['pathogens'] = pathogens
+    pathogens_new = []
+    i = 0
+    for pathogen in pathogens:
+        str_name = pathogen[0]
+        str_name = str_name.replace('_', ' ')
+        pa = list(pathogens[i])
+        pa.append(str_name)
+        pathogens_new.append(pa)
+        i += 1
+    context_dict['pathogens'] = pathogens_new
     context_dict['list_name'] = "common disease"
     return render(request, 'list.html', context_dict)
 
@@ -79,7 +98,16 @@ def list_less(request):
     pathogens = list(result)
     cur.close()
     pathogens.reverse()
-    context_dict['pathogens'] = pathogens
+    pathogens_new = []
+    i = 0
+    for pathogen in pathogens:
+        str_name = pathogen[0]
+        str_name = str_name.replace('_', ' ')
+        pa = list(pathogens[i])
+        pa.append(str_name)
+        pathogens_new.append(pa)
+        i += 1
+    context_dict['pathogens'] = pathogens_new
     context_dict['list_name'] = "rare disease"
     return render(request, 'list.html', context_dict)
 
@@ -89,8 +117,16 @@ def search(request):
     search_word = request.GET.get('search_word', '')
     search_pathogen = Disease.objects.filter(name__icontains=search_word)
     search_pathogen = search_pathogen.values('name').distinct()
+    pathogen_name = []
+    for pathogen in search_pathogen:
+        pa = []
+        pa.append(pathogen['name'])
+        str_name = pathogen['name']
+        str_name = str_name.replace('_', ' ')
+        pa.append(str_name)
+        pathogen_name.append(pa)
     context_dict['search_word'] = search_word
-    context_dict['pathogens'] = search_pathogen
+    context_dict['pathogens'] = pathogen_name
     return render(request, 'search.html', context_dict)
 
 
@@ -98,14 +134,10 @@ def singledi(request, di_name):
     context_dict = {}
     try:
         disease = Disease.objects.filter(name=di_name)
-        name = disease[0].name
-        di_name = str.upper(di_name)
-        print(di_name)
-        name = str.lower(name)
-        name = name.replace(" ", "-")
+        di_name = di_name.replace('_', ' ')
         context_dict['disease'] = disease
         context_dict['name'] = di_name
     except Disease.DoesNotExist:
         context_dict['disease'] = None
         context_dict['name'] = di_name
-    return render(request, 'disease.html', context_dict)
+    return render(request, 'single_pathogen.html', context_dict)

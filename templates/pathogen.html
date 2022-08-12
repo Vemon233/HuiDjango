@@ -19,8 +19,8 @@
             <div class="d-flex">
                 <div class="card mx-auto" style="width: 1300px;">
                     <div class="card-header pt-3 d-flex flex-row align-items-center justify-content-between">
-                        <div><h1><span class="text-primary">{{ pathogen_name }}</span></h1></div>
-                        <div class="ms-auto mt-auto"><h4><span class="text-danger">Danger lever: {{ danger_level }}</span></h4></div>
+                        <div><h1><span class="text-primary">{% block name_block %}{% endblock %}</span></h1></div>
+                        <div class="ms-auto mt-auto"><h4><span class="text-danger">Danger level: {% block level_block %}{% endblock %}</span></h4></div>
                     </div>
                 </div>
             </div>

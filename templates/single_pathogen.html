@@ -1,11 +1,10 @@
 {% extends 'pathogen.html' %}
 
 {% block title_title_block %}
-    Undiagnosed Disease
+    {{ name }}
 {% endblock %}
 
-{% block name_block %}Undiagnosed Disease{% endblock %}
-{% block level_block %}High{% endblock %}
+{% block name_block %}{{ name }}{% endblock %}
 
 {% block line_total_block %}
     <div id="4dd7543500834220bef2bd12985ec255" class="chart-container" style="width:900px; height:500px;"></div>
