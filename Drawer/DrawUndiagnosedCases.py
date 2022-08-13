@@ -118,7 +118,7 @@ print(y_add_list)
         xaxis_opts=opts.AxisOpts(type_="category", name="Date"),
         yaxis_opts=opts.AxisOpts(
             type_="value",
-            name="Daily New Cases",
+            name="Daily New Posts",
             axistick_opts=opts.AxisTickOpts(is_show=True),
             splitline_opts=opts.SplitLineOpts(is_show=True),
         ),
@@ -141,7 +141,7 @@ print(y_add_list)
         xaxis_opts=opts.AxisOpts(type_="category", name="Date"),
         yaxis_opts=opts.AxisOpts(
             type_="value",
-            name="Total Cases",
+            name="Total Posts",
             axistick_opts=opts.AxisTickOpts(is_show=True),
             splitline_opts=opts.SplitLineOpts(is_show=True),
         ),

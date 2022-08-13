@@ -35,19 +35,18 @@ for file in files:
     # Get the cases
     di_cases = 1
 
-    sqlQuery = " UPDATE disease set cases = %s where id = %s "
-    value = (di_cases, di_id)
 
-    try:
-        cur.execute(sqlQuery, value)
-        conn.commit()
-        print(di_id + '数据插入成功！')
-    except pymysql.Error as e:
-        print(di_id + "数据插入失败：" + e)
-        conn.rollback()
-
-
-conn.commit()
+#     sqlQuery = " UPDATE disease set cases = %s where id = %s "
+#     value = (di_cases, di_id)
+#
+#     try:
+#         cur.execute(sqlQuery, value)
+#         conn.commit()
+#         print(di_id + '数据插入成功！')
+#     except pymysql.Error as e:
+#         print(di_id + "数据插入失败：" + e)
+#         conn.rollback()
+#
 
 cur.close()
 conn.close()

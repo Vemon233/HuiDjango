@@ -1,6 +1,6 @@
-var chart_afeb80dd3a7f45408738f999f788979a = echarts.init(
-    document.getElementById('afeb80dd3a7f45408738f999f788979a'), 'white', {renderer: 'canvas'});
-var option_afeb80dd3a7f45408738f999f788979a = {
+var chart_629722dcf7b0449eb5b8667bd7c1cf24 = echarts.init(
+    document.getElementById('629722dcf7b0449eb5b8667bd7c1cf24'), 'white', {renderer: 'canvas'});
+var option_629722dcf7b0449eb5b8667bd7c1cf24 = {
     "animation": true,
     "animationThreshold": 2000,
     "animationDuration": 1000,
@@ -1484,7 +1484,7 @@ var option_afeb80dd3a7f45408738f999f788979a = {
     "yAxis": [
         {
             "type": "value",
-            "name": "Daily New Cases",
+            "name": "Daily New Posts",
             "show": true,
             "scale": false,
             "nameLocation": "end",
@@ -1518,4 +1518,4 @@ var option_afeb80dd3a7f45408738f999f788979a = {
         }
     ]
 };
-chart_afeb80dd3a7f45408738f999f788979a.setOption(option_afeb80dd3a7f45408738f999f788979a);
+chart_629722dcf7b0449eb5b8667bd7c1cf24.setOption(option_629722dcf7b0449eb5b8667bd7c1cf24);
