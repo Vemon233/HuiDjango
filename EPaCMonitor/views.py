@@ -57,7 +57,7 @@ def list_high(request):
         pathogens_new.append(pa)
         i += 1
     context_dict['pathogens'] = pathogens_new
-    context_dict['list_name'] = "frequent disease"
+    context_dict['list_name'] = "danger disease"
     return render(request, 'list.html', context_dict)
 
 
@@ -117,7 +117,7 @@ def list_low(request):
         pathogens_new.append(pa)
         i += 1
     context_dict['pathogens'] = pathogens_new
-    context_dict['list_name'] = "rare disease"
+    context_dict['list_name'] = "uncommon disease"
     return render(request, 'list.html', context_dict)
 
 
@@ -223,10 +223,21 @@ def singledi(request, di_name):
             print("Failed: " + str(e))
 
         #count the danger level
-        posts = len(di_id_list)
-        days = (di_date_list[-1]-di_date_list[0]).days
-        months = days/30
-        posts_per_month = posts/months
+
+        # posts_per_month = 0
+        # for i in range(1, len(di_id_list)-1):
+        #     posts = len(di_id_list) - i
+        #     days = (di_date_list[-1]-di_date_list[i]).days
+        #     months = days/30
+        #     ppm = posts/months
+        #     if ppm > posts_per_month:
+        #         posts_per_month = ppm
+        #     i += 1
+        posts = len(di_date_list)
+        days = (di_date_list[-1] - di_date_list[0]).days
+        months = days / 30
+        posts_per_month = posts / months
+        print(posts_per_month)
         danger_level = ''
         if posts_per_month > 10:
             danger_level = 'Highest'
@@ -297,7 +308,7 @@ def singledi(request, di_name):
                 xaxis_opts=opts.AxisOpts(type_="category", name="Date"),
                 yaxis_opts=opts.AxisOpts(
                     type_="value",
-                    name="Total Posts",
+                    name="Total Activities",
                     axistick_opts=opts.AxisTickOpts(is_show=True),
                     splitline_opts=opts.SplitLineOpts(is_show=True),
                 ),
@@ -334,7 +345,7 @@ def singledi(request, di_name):
                 xaxis_opts=opts.AxisOpts(type_="category", name="Date"),
                 yaxis_opts=opts.AxisOpts(
                     type_="value",
-                    name="Daily New Posts",
+                    name="Daily New Activities",
                     axistick_opts=opts.AxisTickOpts(is_show=True),
                     splitline_opts=opts.SplitLineOpts(is_show=True),
                 ),

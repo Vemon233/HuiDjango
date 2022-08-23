@@ -1,0 +1,139 @@
+AFRICAN SWINE FEVER - EUROPE (20): RUSSIA, DOMESTIC, WILD BOAR, WOAH (FORMERLY OIE)
+***********************************************************************************
+A ProMED-mail post
+http://www.promedmail.org
+ProMED-mail is a program of the
+International Society for Infectious Diseases
+http://www.isid.org
+In this post:
+[1] Astrakhan: domestic 
+[2] Ivanovo: wild boar
+******
+[1] Astrakhan: domestic
+Date: Fri 1 Jul 2022
+Source: WOAH (World Organisation for Animal Health, formerly OIE) [abridged, edited]
+https://wahis.woah.org/#/report-info?reportId=56504
+Event started on [24 Jun 2022]. A total of 2 outbreaks (submitted) reported to date [1 Jul 2022] in Akhtubinskiy rayon and Kharabalinskiy rayon, Astrakhan.
+Total animals affected:
+Species / Susceptible / Cases / Deaths / Killed and disposed of / Slaughtered
+Swine / 15 / 6 / 6 / 4 / 0
+--
+Communicated by:
+ProMED
+******
+[2] Ivanovo: wild boar
+Date: Fri 8 Jul 2022
+Source: WOAH (World Organisation for Animal Health, formerly OIE) [abridged, edited]
+https://wahis.woah.org/#/report-info?reportId=56859
+Event started on [3 Jul 2022]. A total of one outbreak (submitted) reported to date [8 Jul 2022] in Ryshnevo, Il'inskiy rayon, Ivanovo.
+Total animals affected:
+Species / Susceptible / Cases / Deaths / Killed and disposed of / Slaughtered
+Wild boar (_Sus scrofa_): Suidae-Artiodactyla / - / 8 / 8 / 0 / 0
+--
+Communicated by:
+ProMED
+[The following control measures must be applied in outbreaks:
+- Rapid slaughtering of all pigs and proper disposal of cadavers and litter is essential 
+- Thorough cleaning and disinfection 
+- Designation of infected zone, with movement controls on pigs and pig products
+- Detailed epidemiological investigation, with tracing of possible sources (up-stream) and possible spread (down-stream) of infection 
+- Surveillance of infected zone, and surrounding area 
+Source: WOAH African Swine Fever Technical Disease Card 
+https://www.woah.org/app/uploads/2021/03/a-african-swine-fever-v2-0.pdf
+. - Mod.CRD
+ProMED maps:
+Astrakhan Oblast, Russia: 
+https://promedmail.org/promed-post?place=8704363,415
+Ivanovo Oblast, Russia: 
+https://promedmail.org/promed-post?place=8704363,56581
+] 
+See Also
+
+African swine fever - Europe (19): Germany (NI) domestic, westward spread 
+20220702.8704204
+African swine fever - Europe (18): (Ukraine, Moldova) domestic, WOAH 
+20220623.8704030
+African swine fever - Europe (17): (Russia) wild boar, WOAH 
+20220618.8703938
+African swine fever - Europe (14): Moldova (ED, DB) domestic, OIE 
+20220528.8703510
+African swine fever - Europe (09): (Poland, Russia) wild boar, OIE 
+20220406.8702445
+African swine fever - Europe (08): domestic, wild boar, OIE 
+20220204.8701244
+African swine fever - Europe (07): Russia, Ukraine, domestic, wild boar, OIE 
+20220128.8701139
+African swine fever - Europe (06): North Macedonia, Russia, domestic, OIE 
+20220117.8700931
+African swine fever - Europe (05): Italy (PM) wild boar, spread 
+20220116.8700895
+African swine fever - Europe (04): Latvia (Latgale, Zemgale) wild boar, OIE 
+20220112.8700820
+African swine fever - Europe (03): Italy (PM) wild boar, OIE 
+20220111.8700787
+African swine fever - Europe (02): Italy (PM) wild boar 
+20220110.8700778
+African swine fever - Europe (01): Moldova (BR) domestic, OIE 
+20220104.8700663
+2021
+----
+African swine fever - Europe (39): Russia, domestic, wild boar, update, OIE 
+20211227.8700515
+African swine fever - Europe (37): Russia, Ukraine, domestic, OIE 
+20211209.8700164
+African swine fever - Europe (36): Germany (MV) wild boar 
+20211207.8700117
+African swine fever - Europe (35): Russia, domestic, wild boar, OIE. 
+20211129.8699940
+African swine fever - Europe (34): Germany (MV) wild boar, spread 
+20211128.8699925
+African swine fever - Europe (31): Hungary, Ukraine, wild boar, domestic, OIE 
+20211116.8699701
+African swine fever - Europe (29): Bulgaria (PD) domestic, OIE 
+20211108.8699539
+African swine fever - Europe (28): Bulgaria (KZ) wild boar, spread, RFI 
+20211106.8699479
+African swine fever - Europe (27): Russia (BL) domestic pig, spread 
+20211026.8699279
+African swine fever - Europe (25): Russia, domestic, wild boar, OIE 
+20211014.8699036
+African swine fever - Europe (23): Russia, Ukraine, domestic, OIE 
+20210904.8645509
+African swine fever - Europe (22): Ukraine (KK) wild boar 
+20210903.8643150
+African swine fever - Europe (21): Poland (WP, LD) domestic, OIE 
+20210902.8640497
+African swine fever - Europe (20): Bulgaria (PZ, PD), domestic pig, spread 
+20210821.8612710
+African swine fever - Europe (19): domestic, wild boar, OIE 
+20210817.8602698
+African swine fever - Europe (18): Russia, Ukraine, domestic, wild boar, OIE 
+20210810.8583988
+African swine fever - Europe (17): Russia, domestic, wild boar, OIE 
+20210727.8546186
+African swine fever - Europe (14): Russia, domestic, wild boar OIE 
+20210714.8517896
+African swine fever - Europe (13): Russia (VR) domestic, OIE 
+20210708.8504513
+African swine fever - Europe (12): Russia (VL) domestic, OIE 
+20210625.8474540
+African swine fever - Europe (10): Russia (KG, YS) domestic, wild boar, OIE 
+20210521.8373851
+African swine fever - Europe (09): Russia, Ukraine, domestic, wild boar, OIE 
+20210506.8348331
+African swine fever - Europe (08): Russia, Ukraine, domestic, OIE 
+20210417.8312141
+African swine fever - Europe (07): Russia, Ukraine, domestic, OIE 
+20210329.8276108
+2020
+----
+African swine fever - Europe (14): Moldova, domestic, wild boar, update, OIE 
+20200410.7210075
+African swine fever - Europe (10): Moldova, domestic, wild boar, update, OIE 
+20200305.7053595
+African swine fever - Europe (08): Moldova (HI) domestic, spread, OIE 
+20200216.6995510
+African swine fever - Europe (05): Moldova (UG, LE) wild boar, domestic, spread, OIE 
+20200129.6929797
+.................................................crd/ao/lxl
+2022-07-11

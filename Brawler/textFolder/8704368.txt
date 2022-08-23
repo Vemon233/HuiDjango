@@ -1,0 +1,89 @@
+HEPATITIS E - SUDAN: (GEDAREF) REFUGEE CAMPS, 2021-22
+*****************************************************
+A ProMED-mail post
+http://www.promedmail.org
+ProMED-mail is a program of the
+International Society for Infectious Diseases
+http://www.isid.org
+Date: Sun 10 Jul 2022
+Source: Emerg Infect Diseases [edited] 
+https://wwwnc.cdc.gov/eid/article/28/8/22-0397_article
+Citation: Ahmed A, Ali Y, Siddig EE, et al: Hepatitis E virus outbreak among Tigray War refugees from Ethiopia, Sudan. Emerg Infect Dis. 2022 Aug 
+https://doi.org/10.3201/eid2808.220397
+Abstract
+--------
+Hepatitis E is a hygiene- and sanitation-related disease caused by hepatitis E virus (HEV), a member of the Hepeviridae viral family (1,2). HEV has 4 genotypes: genotypes 1 and 2, predominantly found in humans, and genotypes 3 and 4, found in both humans and animals (1,2). Main zoonotic virus reservoirs include domestic pigs, wild boars, rodents, and sika deer (2). Risk factors for transmission differ depending on the genotype. However, genotype 1 is associated with maternal mortality, waterborne transmission, and outbreaks in Africa (3,4). In low- and middle-income countries, HEV is mainly transmitted through contaminated drinking water (2). The clinical manifestation of HEV infection is largely genotype-dependent (2-4).
+HEV is a common cause of acute hepatitis and jaundice worldwide. The WHO estimates that 20 million HEV infections (16.5% symptomatic) and 44 000 HEV-related fatalities occur annually (2). The public health threat of HEV infection is exceptionally high in Africa, and biennial outbreaks result in approx. 35 300 cases of infection and 650 fatalities (3). Pregnant women in Africa are at higher risk for HEV infection than other persons and have an HEV-related mortality rate 10 times higher than the general population (4). Outbreaks of HEV infections in Africa are associated with camps for refugees and internally displaced persons (4). Limited knowledge of the disease is a major challenge for prevention and control of HEV infection in Africa (4).
+Gedaref State is in the southeastern region of Sudan, along the borders of Ethiopia and Eritrea (Appendix Figure [for figures, see original URL - Mod. LL]). In early 2022, the area was hosting over 60 000 refugees who fled from the Tigray War in Ethiopia. After arriving at the reception camp in Hamdayet, Sudan, the refugees were assigned to 1 of 3 long-term humanitarian camps: Tunaydbah, Um Rakuba, or Village 8 (5). During recent years, the region has had severe weather events, including heavy rains and flooding, that increased risks for infectious disease outbreaks (5,6).
+On [2 Jun 2021], cases of acute jaundice syndrome appeared among the refugees in the Um Rakuba camp and were reported from the other humanitarian camps 2 weeks later. Patients were 3 months to 64 years of age, with most (50.1%) being 16-30 years of age; 81 (5.2%) patients were <5 years of age, and 95 (6.1%) were >50 years of age. The male to female ratio was 1.9:1. Of 1589 patients, 100% had jaundice; 83% had yellowish urine; and 78% had anorexia, nausea, and fatigue. Other symptoms included fever (61%), abdominal pain (56%), and headache and vomiting (44%). Among 22 initial acute jaundice syndrome cases, samples from 14 (64%) patients tested positive for HEV at the National Public Health Laboratory in Khartoum, Sudan, by using real-time PCR kits (Altona Diagnostics, 
+https://www.altona-diagnostics.com
+). The outbreak appeared to peak in July 2021 during which 395 cases were reported (Figure). By 21 Feb 2022, approx. 1589 cases that included 21 pregnant women and 1 fatality (nonpregnant woman) were identified by using the Rapid Anti-HEV-IgM Test (InTec Products, 
+https://www.intecasi.com
+) (Figure). Most (75%) cases were reported from the Um Rakuba camp (Appendix).
+The HEV outbreak in Sudan was associated with heavy rainstorms that flooded the humanitarian settlements and destroyed >1231 latrines and >1500 family shelters (5). A similar HEV outbreak occurred among refugees from South Sudan hosted in humanitarian camps in western Ethiopia, where >1000 cases and a 2% mortality rate were reported (7). However, we report a relatively low mortality rate of <0.1% (1/1589). Among pregnant women attending antenatal clinics in Tigray, Ethiopia, in 2018, lower hygiene and rural residency were associated with a high (43.4%) HEV seroprevalence, suggesting that a large outbreak could have been prevented by improving hygienic conditions (4).
+HEV vaccination is recommended for preventing and controlling HEV outbreaks in humanitarian settings, particularly for pregnant women (1,3). However, the success of vaccination is dependent on the HEV genotype. Because of limited resources, we were unable to genotype the HEV that was circulating in the camps.
+Recent outbreaks of Rift Valley fever in northern Sudan and dengue fever in western Sudan have occurred (8-10). These outbreaks highlight the association between massive population displacements because of war or armed conflict and the emergence of infectious diseases (5,6,8-10). Most (50%) HEV outbreaks in sub-Saharan Africa have occurred among refugees and displaced persons living in humanitarian crisis settings (3,4). Open defecation and flooding, both of which occur in the camps, are additional risk factors for HEV emergence and can lead to contamination of nearby open sources of drinking water and food (5).
+In summary, we report an outbreak of HEV infection among refugees from Ethiopia hosted in humanitarian camps in Gedaref State, Sudan. Implementing HEV vaccination, water, sanitation, and hygiene programs to improve the living conditions and drinking water among refugees and displaced persons in these camps might reduce the risk for HEV outbreaks. In addition, genotyping circulating HEV could clarify virus transmission routes and inform control measures.
+References
+----------
+1. Pavio N, Meng XJ, Renou C: Zoonotic hepatitis E: animal reservoirs and emerging risks. Vet Res. 2010;41:46.
+2. Wang B, Meng XJ: Hepatitis E virus: host tropism and zoonotic infection. Curr Opin Microbiol. 2021;59:8-15. 
+3. Kim JH, Nelson KE, Panzner U, Kasture Y, Labrique AB, Wierzba TF: A systematic review of the epidemiology of hepatitis E virus in Africa. BMC Infect Dis. 2014;14:308. 
+4. Bagulo H, Majekodunmi AO, Welburn SC: Hepatitis E in sub Saharan Africa--a significant emerging disease. One Health. 2020;11:100186. 
+5. Ahmed A, Mohamed NS, Siddig EE, Algaily T, Sulaiman S, Ali Y: The impacts of climate change on displaced populations: a call for action. J Clim Chang Health. 2021;3:100057. 
+6. Ahmed A, Mahmoud I, Eldigail M, Elhassan RM, Weaver SC: The emergence of Rift Valley fever in Gedaref State urges the need for a cross-border One Health strategy and enforcement of the International Health Regulations. Pathogens. 2021;10:885. 
+7. Browne LB, Menkir Z, Kahi V, et al: Centers for Disease Control and Prevention (CDC). Notes from the field: hepatitis E outbreak among refugees from South Sudan - Gambella, Ethiopia, April 2014-January 2015. MMWR Morb Mortal Wkly Rep. 2015;64:537.
+8. Ahmed A, Eldigail M, Elduma A, et al: First report of epidemic dengue fever and malaria co-infections among internally displaced persons in humanitarian camps of North Darfur, Sudan. Int J Infect Dis. 2021;108:513-6.
+9. Ahmed A, Ali Y, Elduma A, et al: Unique outbreak of Rift Valley fever in Sudan, 2019. Emerg Infect Dis. 2020;26:3030-3. 
+10. Ahmed A, Ali Y, Elmagboul B, et al: Dengue fever in the Darfur area, western Sudan. Emerg Infect Dis. 2019;25:2126. 
+--
+Communicated by:
+ProMED Rapporteur Mahmoud Orabi
+[The following is extracted from 
+https://www.who.int/news-room/fact-sheets/detail/hepatitis-e
+:
+Cases of hepatitis E are not clinically distinguishable from other types of acute viral hepatitis. However, diagnosis can often be strongly suspected in appropriate epidemiologic settings, for example when several cases occur in localities in known disease-endemic areas, in settings with risk of water contamination when the disease is more severe in pregnant women or if hepatitis A has been excluded.
+Definitive diagnosis of hepatitis E infection is usually based on the detection of specific anti-HEV immunoglobulin M (IgM) antibodies to the virus in a person's blood; this is usually adequate in areas where the disease is common. Rapid tests are available for field use. Additional tests include reverse transcriptase-polymerase chain reaction (RT-PCR) to detect the hepatitis E virus RNA in blood and stool. This assay requires specialized laboratory facilities. This test is particularly needed in areas where hepatitis E is infrequent and in uncommon cases with chronic HEV infection.
+There is no specific treatment capable of altering the course of acute hepatitis E. As the disease is usually self-limiting, hospitalization is generally not required. Most important is the avoidance of unnecessary medications. Acetaminophen, paracetamol, and medication against vomiting should be used sparingly or avoided.
+Hospitalization is required for people with fulminant hepatitis and should also be considered for symptomatic pregnant women. Immunosuppressed people with chronic hepatitis E benefit from specific treatment using ribavirin, an antiviral drug. In some specific situations, interferon has also been used successfully.
+A vaccine to prevent hepatitis E virus infection has been developed and is licensed in China, but is not yet available elsewhere. - Mod.LL
+ProMED map:
+Gedaref, Al Qaḑārif, Sudan: 
+https://promedmail.org/promed-post?place=8704368,46245
+] 
+See Also
+
+Hepatitis E - Chad: (TA) 
+20220118.8700952
+2021
+----
+Hepatitis E - South Sudan (02): (UY) IDP, WHO 
+20211225.8700470
+Hepatitis E - Sudan (02): (ND) pregnant women, fatalities 
+20211204.8700069
+Hepatitis E - Chad: (TA) 
+20211203.8700043
+Hepatitis E - South Sudan: (WH) IDP camp, fatal 
+20210818.8605063
+Hepatitis E - Sudan: (Gedaref, Kassala) refugee camps 
+20210730.8557918
+2020
+----
+Hepatitis E - Burkina Faso 
+20201202.7988324
+Hepatitis E - Namibia (02) 
+20200331.7163409
+Hepatitis E - Namibia 
+20200204.6946093
+2019
+----
+Hepatitis E - Namibia (04): (OH) 
+20191206.6827202
+Hepatitis E - Namibia (03) 
+20190705.6554114
+Hepatitis E - Namibia (02) 
+20190221.6329433
+Hepatitis E - Namibia: (OH) 
+20190202.6289886
+.................................................ll/ao/lxl
+2022-07-11
