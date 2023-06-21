@@ -22,3 +22,7 @@ urlpatterns = [
     path('EPaCMonitor/', include('EPaCMonitor.urls')),
     path('admin/', admin.site.urls),
 ]
+
+"""
+test
+"""
