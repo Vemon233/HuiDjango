@@ -15,6 +15,8 @@ conn = pymysql.connect(
 )
 cur = conn.cursor()
 
+// sdaoijigos
+
 di_id_list = []
 di_name_list = []
 di_date_list = []
